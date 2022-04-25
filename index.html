@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./index.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Poppins:wght@200&family=Red+Hat+Display&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="body">
+        <h1 class="head1">Welcome back , Nikkel</h1>
+        <p class="headpara">you've got <span><input type="text" id="total" class="tota" value="" disabled><span> task coming up in the next days.</p>
+        <div class="enterbox">
+            <input type="checkbox" class="checkbox" id ="checked" onclick="switchtab()" >
+            <input type="text" placeholder="Add a new task..." class="textbox1" id="textbox">
+            <div class="te">
+            <input id="textbo"classname="textbo1" placeholder="type your description"><dd></dd></input>
+            </div>
+            <div>
+                <input id="textbu" placeholder="Type your Tags"></input>
+            </div>
+            <button type="button" class="addbutton" id="addbutton" value="click"  onclick="todolist()">Add_item</button>
+        </div>
+        <div class="listbox" id="countlist">
+            <div id="tasklist" class="taslfg"></div>
+        </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f411cc5e95.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
